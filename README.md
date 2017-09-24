@@ -9,7 +9,7 @@ version 1
 sequence reallocation worked
 ```
 5. Open the lib.nim in your code editor and change the echo in line 12 to print something different (e.g. "version 2")
-6. Open another terminal and do nim `--app:lib -d:useNimRtl c lib` once again
+6. Open another terminal and do `nim --app:lib -d:useNimRtl c lib` once again
 7. Now in the terminal that runs the main binary, you can confirm that hot loading works by comparing the output:
 ```
 version 2
