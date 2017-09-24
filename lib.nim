@@ -19,7 +19,7 @@ proc update (ts: TestState) {.exportc, dynlib, cdecl.}  =
     echo "sequence reallocation worked"
     
     
-    # Dummy code to be changed be commenting it out/in
+    # Dummy code to be changed by commenting it out/back in
     
     var dummy1 = 343424534343
     var dummy2 = 343424534343
