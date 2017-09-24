@@ -23,3 +23,7 @@ version 3
 No stack traceback available
 SIGSEGV: Illegal storage access. (Attempt to read from nil?)
 ```
+
+# nim.cfg
+
+This is for MinGW-w64 (on Windows) only.
