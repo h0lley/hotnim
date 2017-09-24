@@ -33,13 +33,11 @@ proc main =
     let ts = new TestState
     var lib = loadLib()
     
-    # Call newSeq in the linked code
     lib.init(ts)
     
     echo "exit via ctrl + c"
     while true:
         
-        # 
         lib.update(ts)
         
         # Reload lib every two seconds
